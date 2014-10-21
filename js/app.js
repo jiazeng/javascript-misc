@@ -24,7 +24,8 @@ function onReady() {
 
     //add an event listener for the 'click' event on the exit button
     //for this one we will use an inline anonymous function so that you can get used to those
-    var exitButton = document.getElementById('exitButton');
+    var exitButton = document.getElementById('exit-button');
+    console.log(exitButton);
     exitButton.addEventListener('click', function () {
         if (window.confirm("Are you really sure you want to leave? I worked really hard on this. Don't you love me?")) {
             window.location = 'http://www.google.com';
